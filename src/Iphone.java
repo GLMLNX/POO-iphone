@@ -1,4 +1,4 @@
-public class Iphone implements interfaceIphone{
+public class Iphone implements interfaceAparelhoTelefonico,interfaceNavegadorInternet,interfaceReprodutorMusical{
     public void tocar(){
         System.out.println("Tocando musica");
     }
